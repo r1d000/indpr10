@@ -25,8 +25,9 @@ async def start_command(msg: types.Message):
 
 @dp.message_handler(commands='help')
 async def help_command(msg: types.Message):
-	await msg.answer(text="""Данный бот выдает определенный контент (фильм, сериал) по тегу (жанру).\n
-	Для старта подбора введите команду /sel""")
+	await msg.answer(text="""Данный бот выдает определенный контент (фильм, сериал и мультфильмы) по тегу (жанру).\n
+	Для старта подбора введите команду /sel\n
+	По всем вопросам писать в телеграм - @rido7 или же на почту drecker3010371@gmail.com""")
 
 
 
